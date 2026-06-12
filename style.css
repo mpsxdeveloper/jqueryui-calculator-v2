@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('images/default.jpg') no-repeat right top;
+}
+
+.container {
+    height: 400px;
+    width: 445px;
+    margin: 0 auto;
+    border-radius: 25px;
+    padding-right: 25px;
+    padding-top: 7%;
+}
+
+.numbers {
+    top: 0px;
+    position: absolute;
+}
+
+.numbers div {
+    position: absolute;
+    top: -50px;
+    color: #FFF;
+    font-size: 32px;
+}
+
+#tabs {
+    margin: 0 auto;
+}
+
+input[type=text] {
+    width: 98%;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.container button {
+    width: 50px;
+    height: 50px;
+    margin: 5px 5px;
+    padding: 0;
+    text-align: center;
+}
